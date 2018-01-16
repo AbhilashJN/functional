@@ -16,6 +16,6 @@ function repeat(operation , num)
 }
 
 
-//module.exports = repeat
+module.exports = repeat
 
-console.log("Should return true" , i===0)
+//console.log("Should return true" , i===0)

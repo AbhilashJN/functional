@@ -1,6 +1,6 @@
 function doubleAll(numbers) {
 
-    var result = []
+    let result = []
    
     result = numbers.map( function (x){ return 2*x})
 
@@ -11,9 +11,10 @@ function doubleAll(numbers) {
 
 
 
-//module.exports = doubleAll
+module.exports = doubleAll
 
 
+/*
 function isEqual(first,second)
 {
 	for(let i=0;i<first.length;i++)
@@ -27,3 +28,4 @@ function isEqual(first,second)
 }
 
 console.log("should return true for proper input : " , isEqual(doubleAll([1,2,3,4]) , [2,4,6,8])===true   )
+*/
