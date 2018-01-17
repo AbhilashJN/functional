@@ -29,3 +29,4 @@ let duck3= {q:1};
 
 console.log("Should return true for correct input" , duckCount(duck, notDuck)===1);
 console.log("Should return true for input with 0 matches ", duckCount(notDuck,duck3)===0);
+console.log("Should return true for 0 arguments:" , duckCount()===0);
