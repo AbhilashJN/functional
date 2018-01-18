@@ -14,3 +14,8 @@ console.log("Should print Prefix abc def" );
 f("abc","def");
 
 
+f=logger("");
+console.log("Should print  abc def");
+f("abc","def");
+
+
