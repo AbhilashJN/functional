@@ -18,4 +18,5 @@ f=logger("");
 console.log("Should print  abc def");
 f("abc","def");
 
-
+console.log("Should print  <empty string>");
+f("");
