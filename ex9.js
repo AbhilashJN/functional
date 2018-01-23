@@ -18,9 +18,16 @@ function logger(namespace) {
 	return logFunction;
 }
 
-//module.exports = logger;
+module.exports = logger;
 
 
+/*
 let f = logger("INFO");
-console.log("Should give print INFO my message");
+console.log("Should print INFO my message");
 f("my message");
+f=logger("");
+console.log("Should print my message");
+f("my message");
+console.log("Should print  <empty string>");
+f("");
+*/

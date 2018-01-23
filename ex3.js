@@ -1,31 +1,38 @@
 function doubleAll(numbers) {
 
-    let result = []
+	let result = [];
    
-    result = numbers.map( function (x){ return 2*x})
+	result = numbers.map( function (x){ return 2*x;});
 
-    return result
+	return result;
 
-    }
-
-
+}
 
 
-module.exports = doubleAll
 
 
-/*
+module.exports = doubleAll;
+
+
+/* TESTING
+
+
 function isEqual(first,second)
 {
 	for(let i=0;i<first.length;i++)
 	{
 		if(first[i]!=second[i])
 		{
-			return false
+			return false;
 		}
 	}
-	return true
+	return true;
 }
 
-console.log("should return true for proper input : " , isEqual(doubleAll([1,2,3,4]) , [2,4,6,8])===true   )
+console.log("should return array containing double of each element for valid input : " , isEqual(doubleAll([1,2,3,4]) , [2,4,6,8])===true   );
+console.log("should return empty array for empty array input : " , isEqual(doubleAll([]) , [])===true   );
+
 */
+
+
+
